@@ -1,0 +1,17 @@
+Django==1.4.3
+psycopg2==2.4.5
+dj-database-url==0.2.1
+django_evolution 
+Pillow
+html5lib==1.0b3
+httplib2==0.7.4
+lxml==2.3.5
+pisa==3.0.33
+pytz==2013b
+pyxdg==0.20
+reportlab==2.5
+xlwt==0.7.4
+django-model-report==0.1.5
+BeautifulSoup==3.2.1
+Whoosh==0.3.18
+

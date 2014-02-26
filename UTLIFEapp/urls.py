@@ -1,0 +1,16 @@
+import UTLIFEapp.views
+
+from django.conf.urls.defaults import *
+
+urlpatterns = patterns('',
+    #url(r'^bulk/$', 'bulk.views.post_list'),
+    
+    #url(r'^customer/(?P<id>.*?)/$', 'bulk.views.customerprofile'),
+    #url(r'^optout/$', 'bulk.views.optout'),
+    #url(r'^message/(?P<id>.*?)/$', 'bulk.views.editmessage'),
+   url(r'^p/(?P<tidAmt>.*?)/(?P<ls>.*?)/(?P<accNum>.*?)/$', 'UTLIFEapp.views.get_post_function'),
+   url(r'^b/(?P<tid>.*?)/(?P<accNum>.*?)/(?P<ls>.*?)/$', 'UTLIFEapp.views.check_balance_function'),
+   
+   
+   # url(r'^(?P<t_id>.*?)/(?P<uname>.*?)/(?P<pword>.*?)/$', 'UTLIFEapp.views.get_post_login'),
+)
